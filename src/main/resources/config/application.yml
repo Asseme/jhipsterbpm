@@ -165,4 +165,9 @@ jhipster:
 # https://www.jhipster.tech/common-application-properties/
 # ===================================================================
 
-# application:
+application:
+camunda:
+  bpm:
+    admin-user:
+      id: admin
+      password: admin
