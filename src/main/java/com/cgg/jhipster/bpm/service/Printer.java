@@ -1,7 +1,6 @@
 package com.cgg.jhipster.bpm.service;
 
 import java.io.FileWriter;
-import java.io.PrintWriter;
 
 import org.camunda.bpm.engine.delegate.DelegateExecution;
 import org.slf4j.Logger;
@@ -16,7 +15,7 @@ public class Printer {
    private final Logger log = LoggerFactory.getLogger(this.getClass());
 
    public void printMessage(DelegateExecution execution) throws java.io.IOException {
-       log.debug("Hello world " + execution.getVariable("date"));
+       log.info("Hello world " + execution.getVariable("date"));
        System.out.print("Hello world " + execution.getVariable("date"));
        try
         {
