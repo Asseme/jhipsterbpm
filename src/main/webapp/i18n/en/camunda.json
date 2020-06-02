@@ -1,0 +1,21 @@
+{
+  "jhipsterBpmApp": {
+    "camunda": {
+      "home": {
+        "title": "Camundas",
+        "createLabel": "Create a new Camunda",
+        "createOrEditLabel": "Create or edit a Camunda",
+        "notFound": "No Camundas found"
+      },
+      "created": "A new Camunda is created with identifier {{ param }}",
+      "updated": "A Camunda is updated with identifier {{ param }}",
+      "deleted": "A Camunda is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Camunda {{ id }}?"
+      },
+      "detail": {
+        "title": "Camunda"
+      }
+    }
+  }
+}
